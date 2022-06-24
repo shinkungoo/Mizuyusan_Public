@@ -9,5 +9,5 @@ link_directories(/usr/local/lib)
 
 link_libraries("-framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo")
 
-add_executable(CGalgo main.cpp glad.c dda.cpp)
+add_executable(CGalgo main.cpp glad.c dda.cpp algo_imp.h)
 target_link_libraries(CGalgo glfw3)
