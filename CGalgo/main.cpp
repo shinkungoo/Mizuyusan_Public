@@ -40,7 +40,6 @@ int main() {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
@@ -51,7 +50,6 @@ int main() {
         //rendering part
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-
 
         //call events and swap buffers
         glfwSwapBuffers(window);
