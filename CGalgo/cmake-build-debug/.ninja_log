@@ -1,9 +1,7 @@
 # ninja log v5
-1	178	1656057180840118132	CMakeFiles/CGalgo.dir/dda.cpp.o	2ed0cfdf8bfbe9bf
-1	209	1656057180871404229	CMakeFiles/CGalgo.dir/glad.c.o	e389b385fffe2f0f
-324	409	1656058363068298463	CGalgo	728e99fc2277c7c4
-2	324	1656058362982685746	CMakeFiles/CGalgo.dir/main.cpp.o	3e72823dcbe74a94
-2	87	1656133131068403598	CMakeFiles/CGalgo.dir/dda.cpp.o	2ed0cfdf8bfbe9bf
-2	121	1656133131103615466	CMakeFiles/CGalgo.dir/glad.c.o	e389b385fffe2f0f
-1	363	1656133131344970544	CMakeFiles/CGalgo.dir/main.cpp.o	3e72823dcbe74a94
+1	126	1656133945418047213	CMakeFiles/CGalgo.dir/dda.cpp.o	2ed0cfdf8bfbe9bf
 363	457	1656133131440163360	CGalgo	728e99fc2277c7c4
+1	373	1656133945665257384	CMakeFiles/CGalgo.dir/main.cpp.o	3e72823dcbe74a94
+1	146	1656133945438487247	CMakeFiles/CGalgo.dir/glad_WIN32.c.o	3c4d2049ebbfefc4
+1	158	1656133945449706959	CMakeFiles/CGalgo.dir/glad_APPLE.c.o	ea8cd3e66d2933ac
+5	126	1656133984419136220	CGalgo	694ae48dc4f5ee4c
