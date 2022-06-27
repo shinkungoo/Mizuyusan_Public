@@ -22,4 +22,5 @@ void lineDDA(int x0, int y0, int xEnd, int yEnd)
     xIncrement = dx / static_cast<double>(steps);
     yIncrement = dy / static_cast<double>(steps);
 
+
 }
