@@ -101,9 +101,14 @@ int main() {
     //---------------------------------------------------------------------
     // set up vertex data (and buffer(s)) and configure vertex attributes
     double vertices[] = {
-            -0.5, -0.5, 0.0,
+            0.5, 0.5, 0.0,
             0.5, -0.5, 0.0,
-            0.0, 0.5, 0.0
+            -0.5, -0.5, 0.0,
+            -0.5, 0.5, 0.0
+    };
+    unsigned int indexes[] = {
+            0, 1, 3,    // first triangle
+            1, 2, 3     // second triangle
     };
     unsigned int VAO;
     glGenVertexArrays(1, &VAO);
@@ -116,6 +121,11 @@ int main() {
     glVertexAttribPointer(0, 3, GL_DOUBLE, GL_FALSE, 3 * sizeof(double), (void *)0);
     glEnableVertexAttribArray(0);
 
+    unsigned int EBO;
+    glGenBuffers(1, &EBO);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indexes), indexes, GL_STATIC_DRAW);
+
     glViewport(0, 0, SCR_WIDTH, SCR_HEIGHT);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     while(!glfwWindowShouldClose(window)){
@@ -127,7 +137,8 @@ int main() {
 
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
         //call events and swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
