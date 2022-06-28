@@ -1,0 +1,8 @@
+//
+// Created by Shizumu on 2022/6/29.
+//
+
+#ifndef DATASTRUCTURE_HUFFMAN_TREE_H
+#define DATASTRUCTURE_HUFFMAN_TREE_H
+
+#endif //DATASTRUCTURE_HUFFMAN_TREE_H
