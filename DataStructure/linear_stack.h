@@ -1,0 +1,8 @@
+//
+// Created by Shizumu on 2022/6/28.
+//
+
+#ifndef DATASTRUCTURE_LINEAR_STACK_H
+#define DATASTRUCTURE_LINEAR_STACK_H
+
+#endif //DATASTRUCTURE_LINEAR_STACK_H

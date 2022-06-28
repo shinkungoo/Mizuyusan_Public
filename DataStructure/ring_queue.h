@@ -1,0 +1,8 @@
+//
+// Created by Shizumu on 2022/6/28.
+//
+
+#ifndef DATASTRUCTURE_RING_QUEUE_H
+#define DATASTRUCTURE_RING_QUEUE_H
+
+#endif //DATASTRUCTURE_RING_QUEUE_H
