@@ -12,6 +12,7 @@ const char *vertexShaderSource =
         "void main()\n"
         "{\n"
         "    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+        "    gl_PointSize = 10.0;\n"
         "}\0";
 const char *fragmentShaderSource =
         "#version 460 core\n"
@@ -106,10 +107,10 @@ int main() {
             -0.5, -0.5, 0.0,
             -0.5, 0.5, 0.0
     };
-    unsigned int indexes[] = {
-            0, 1, 3,    // first triangle
-            1, 2, 3     // second triangle
-    };
+//    unsigned int indexes[] = {
+//            0, 1, 3,    // first triangle
+//            1, 2, 3     // second triangle
+//    };
     unsigned int VAO;
     glGenVertexArrays(1, &VAO);
     glBindVertexArray(VAO);
@@ -118,13 +119,14 @@ int main() {
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+//    glVertexAttribPointer(0, 3, GL_DOUBLE, GL_FALSE, 3 * sizeof(double), (void *)0);
     glVertexAttribPointer(0, 3, GL_DOUBLE, GL_FALSE, 3 * sizeof(double), (void *)0);
     glEnableVertexAttribArray(0);
 
-    unsigned int EBO;
-    glGenBuffers(1, &EBO);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indexes), indexes, GL_STATIC_DRAW);
+//    unsigned int EBO;
+//    glGenBuffers(1, &EBO);
+//    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+//    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indexes), indexes, GL_STATIC_DRAW);
 
     glViewport(0, 0, SCR_WIDTH, SCR_HEIGHT);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
@@ -134,11 +136,12 @@ int main() {
         //rendering part
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
-        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glEnable(GL_PROGRAM_POINT_SIZE);
+//        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+//        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glDrawArrays(GL_POINTS, 0, 4);
         //call events and swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
