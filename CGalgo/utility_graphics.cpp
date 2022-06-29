@@ -70,5 +70,5 @@ void setPixel(int x, int y) {
     glUseProgram(shaderProgram);
     glBindVertexArray(VAO);
     glEnable(GL_PROGRAM_POINT_SIZE);
-    glDrawArrays(GL_POINTS, 0, 3);
+    glDrawArrays(GL_POINTS, 0, 1);
 }

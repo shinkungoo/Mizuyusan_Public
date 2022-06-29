@@ -52,8 +52,7 @@ int main() {
         //rendering part
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-        setPixel(0, 0);
-        setPixel(100, 100);
+        setPixel(800, 600);
         //call events and swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
