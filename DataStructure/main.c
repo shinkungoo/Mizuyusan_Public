@@ -1,11 +1,10 @@
 #include <stdio.h>
-
-#include "test.h"
+#include "link_list.h"
 
 int main() {
     printf("Test Begin\n");
     printf("----------------------------------\n");
-    testLinkList();
+    Test();
 
     return 0;
 }
