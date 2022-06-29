@@ -128,30 +128,6 @@ CGalgo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CGalgo.dir\build.make CMakeFiles/CGalgo.dir/build
 .PHONY : CGalgo/fast
 
-dda.obj: dda.cpp.obj
-.PHONY : dda.obj
-
-# target to build an object file
-dda.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CGalgo.dir\build.make CMakeFiles/CGalgo.dir/dda.cpp.obj
-.PHONY : dda.cpp.obj
-
-dda.i: dda.cpp.i
-.PHONY : dda.i
-
-# target to preprocess a source file
-dda.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CGalgo.dir\build.make CMakeFiles/CGalgo.dir/dda.cpp.i
-.PHONY : dda.cpp.i
-
-dda.s: dda.cpp.s
-.PHONY : dda.s
-
-# target to generate assembly for a file
-dda.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CGalgo.dir\build.make CMakeFiles/CGalgo.dir/dda.cpp.s
-.PHONY : dda.cpp.s
-
 glad_WIN32.obj: glad_WIN32.c.obj
 .PHONY : glad_WIN32.obj
 
@@ -209,9 +185,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CGalgo
-	@echo ... dda.obj
-	@echo ... dda.i
-	@echo ... dda.s
 	@echo ... glad_WIN32.obj
 	@echo ... glad_WIN32.i
 	@echo ... glad_WIN32.s
