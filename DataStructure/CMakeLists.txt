@@ -3,4 +3,4 @@ project(DataStructure C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DataStructure main.c link_list.h link_list.c)
+add_executable(DataStructure main.c linear_list.h linear_list.c)

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "link_list.h"
+#include "linear_list.h"
 
 int main() {
     printf("Test Begin\n");
