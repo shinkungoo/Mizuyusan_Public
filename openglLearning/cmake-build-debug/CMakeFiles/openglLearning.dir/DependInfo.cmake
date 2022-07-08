@@ -19,6 +19,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "F:/LocalRepository/Mizuyusan_Public/openglLearning/main.cpp" "F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/openglLearning.dir/main.cpp.obj"
+  "F:/LocalRepository/Mizuyusan_Public/openglLearning/shader.cpp" "F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/openglLearning.dir/shader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -80,12 +80,12 @@ clean: CMakeFiles/openglLearning.dir/clean
 CMakeFiles/openglLearning.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target openglLearning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target openglLearning"
 .PHONY : CMakeFiles/openglLearning.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/openglLearning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/openglLearning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/openglLearning.dir/rule

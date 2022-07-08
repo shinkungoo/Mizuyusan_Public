@@ -176,6 +176,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shader.obj: shader.cpp.obj
+.PHONY : shader.obj
+
+# target to build an object file
+shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/shader.cpp.obj
+.PHONY : shader.cpp.obj
+
+shader.i: shader.cpp.i
+.PHONY : shader.i
+
+# target to preprocess a source file
+shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/shader.cpp.i
+.PHONY : shader.cpp.i
+
+shader.s: shader.cpp.s
+.PHONY : shader.s
+
+# target to generate assembly for a file
+shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/shader.cpp.s
+.PHONY : shader.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... shader.obj
+	@echo ... shader.i
+	@echo ... shader.s
 .PHONY : help
 
 

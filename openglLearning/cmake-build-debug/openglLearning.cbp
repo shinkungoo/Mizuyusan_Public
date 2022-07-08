@@ -88,6 +88,12 @@
 		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/main.cpp">
 			<Option target="openglLearning"/>
 		</Unit>
+		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/shader.cpp">
+			<Option target="openglLearning"/>
+		</Unit>
+		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/shader.h">
+			<Option target="openglLearning"/>
+		</Unit>
 		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/openglLearning.dir/glad_WIN32.c.obj"
   "CMakeFiles/openglLearning.dir/main.cpp.obj"
+  "CMakeFiles/openglLearning.dir/shader.cpp.obj"
   "libopenglLearning.dll.a"
   "openglLearning.exe"
   "openglLearning.exe.manifest"

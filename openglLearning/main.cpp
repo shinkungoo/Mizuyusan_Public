@@ -25,10 +25,11 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
+    // If the os is MacOS, the additional parameter is needed.
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
-
+    // Create windows
     GLFWwindow * window = glfwCreateWindow(800, 600, "openglLearning", nullptr, nullptr);
     if(window == nullptr){
         std::cout << "Failed to create window" << std::endl;
