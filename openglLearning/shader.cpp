@@ -67,5 +67,33 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
     glAttachShader(ID, fragment);
     glLinkProgram(ID);
     // print link errors if any
+    glGetProgramiv(ID, GL_LINK_STATUS, &success);
+    if(!success){
+        glGetProgramInfoLog(ID, 512, nullptr, infoLog);
+        std::cerr << "ERROR::SHADER:::PROGRAM_LINKING_FAILED" << std::endl
+                  << infoLog << std::endl;
+    }
+    // delete shaders because they're linked into our program and no longer necessary
+    glDeleteShader(vertex);
+    glDeleteShader(fragment);
+}
 
+void
+Shader::use() const {
+    glUseProgram(ID);
+}
+
+void
+Shader::setBool(const std::string &name, bool value) const {
+    glUniform1i(glGetUniformLocation(ID, name.c_str()), static_cast<int>(value));
+}
+
+void
+Shader::setInt(const std::string &name, int value) const {
+    glUniform1i(glGetUniformLocation(ID, name.c_str()), value);
+}
+
+void
+Shader::setFloat(const std::string &name, float value) const {
+    glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
 }
