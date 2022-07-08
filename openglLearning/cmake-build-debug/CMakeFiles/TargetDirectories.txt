@@ -1,3 +1,4 @@
-F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/openglLearning.dir
 F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/colorful_triangle.dir
+F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/hello_triangle.dir
 F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir

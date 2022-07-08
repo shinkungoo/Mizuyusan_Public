@@ -51,5 +51,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/openglLearning.dir/DependInfo.cmake"
+  "CMakeFiles/colorful_triangle.dir/DependInfo.cmake"
+  "CMakeFiles/hello_triangle.dir/DependInfo.cmake"
   )

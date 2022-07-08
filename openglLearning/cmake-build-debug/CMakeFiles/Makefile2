@@ -62,7 +62,8 @@ CMAKE_BINARY_DIR = F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/openglLearning.dir/all
+all: CMakeFiles/colorful_triangle.dir/all
+all: CMakeFiles/hello_triangle.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/openglLearning.dir/clean
+clean: CMakeFiles/colorful_triangle.dir/clean
+clean: CMakeFiles/hello_triangle.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/openglLearning.dir
+# Target rules for target CMakeFiles/colorful_triangle.dir
 
 # All Build rule for target.
-CMakeFiles/openglLearning.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target openglLearning"
-.PHONY : CMakeFiles/openglLearning.dir/all
+CMakeFiles/colorful_triangle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target colorful_triangle"
+.PHONY : CMakeFiles/colorful_triangle.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/openglLearning.dir/rule: cmake_check_build_system
+CMakeFiles/colorful_triangle.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/openglLearning.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/colorful_triangle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/openglLearning.dir/rule
+.PHONY : CMakeFiles/colorful_triangle.dir/rule
 
 # Convenience name for target.
-openglLearning: CMakeFiles/openglLearning.dir/rule
-.PHONY : openglLearning
+colorful_triangle: CMakeFiles/colorful_triangle.dir/rule
+.PHONY : colorful_triangle
 
 # clean rule for target.
-CMakeFiles/openglLearning.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/clean
-.PHONY : CMakeFiles/openglLearning.dir/clean
+CMakeFiles/colorful_triangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/clean
+.PHONY : CMakeFiles/colorful_triangle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_triangle.dir
+
+# All Build rule for target.
+CMakeFiles/hello_triangle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target hello_triangle"
+.PHONY : CMakeFiles/hello_triangle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_triangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hello_triangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\LocalRepository\Mizuyusan_Public\openglLearning\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/hello_triangle.dir/rule
+
+# Convenience name for target.
+hello_triangle: CMakeFiles/hello_triangle.dir/rule
+.PHONY : hello_triangle
+
+# clean rule for target.
+CMakeFiles/hello_triangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/clean
+.PHONY : CMakeFiles/hello_triangle.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

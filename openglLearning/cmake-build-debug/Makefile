@@ -116,24 +116,38 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named openglLearning
+# Target rules for targets named colorful_triangle
 
 # Build rule for target.
-openglLearning: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 openglLearning
-.PHONY : openglLearning
+colorful_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 colorful_triangle
+.PHONY : colorful_triangle
 
 # fast build rule for target.
-openglLearning/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/build
-.PHONY : openglLearning/fast
+colorful_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/build
+.PHONY : colorful_triangle/fast
+
+#=============================================================================
+# Target rules for targets named hello_triangle
+
+# Build rule for target.
+hello_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_triangle
+.PHONY : hello_triangle
+
+# fast build rule for target.
+hello_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/build
+.PHONY : hello_triangle/fast
 
 glad_WIN32.obj: glad_WIN32.c.obj
 .PHONY : glad_WIN32.obj
 
 # target to build an object file
 glad_WIN32.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/glad_WIN32.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/glad_WIN32.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/glad_WIN32.c.obj
 .PHONY : glad_WIN32.c.obj
 
 glad_WIN32.i: glad_WIN32.c.i
@@ -141,7 +155,8 @@ glad_WIN32.i: glad_WIN32.c.i
 
 # target to preprocess a source file
 glad_WIN32.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/glad_WIN32.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/glad_WIN32.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/glad_WIN32.c.i
 .PHONY : glad_WIN32.c.i
 
 glad_WIN32.s: glad_WIN32.c.s
@@ -149,39 +164,65 @@ glad_WIN32.s: glad_WIN32.c.s
 
 # target to generate assembly for a file
 glad_WIN32.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/glad_WIN32.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/glad_WIN32.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/glad_WIN32.c.s
 .PHONY : glad_WIN32.c.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+main_01.obj: main_01.cpp.obj
+.PHONY : main_01.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main_01.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/main_01.cpp.obj
+.PHONY : main_01.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+main_01.i: main_01.cpp.i
+.PHONY : main_01.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/main.cpp.i
-.PHONY : main.cpp.i
+main_01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/main_01.cpp.i
+.PHONY : main_01.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+main_01.s: main_01.cpp.s
+.PHONY : main_01.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/main.cpp.s
-.PHONY : main.cpp.s
+main_01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/main_01.cpp.s
+.PHONY : main_01.cpp.s
+
+main_02.obj: main_02.cpp.obj
+.PHONY : main_02.obj
+
+# target to build an object file
+main_02.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/main_02.cpp.obj
+.PHONY : main_02.cpp.obj
+
+main_02.i: main_02.cpp.i
+.PHONY : main_02.i
+
+# target to preprocess a source file
+main_02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/main_02.cpp.i
+.PHONY : main_02.cpp.i
+
+main_02.s: main_02.cpp.s
+.PHONY : main_02.s
+
+# target to generate assembly for a file
+main_02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/main_02.cpp.s
+.PHONY : main_02.cpp.s
 
 shader.obj: shader.cpp.obj
 .PHONY : shader.obj
 
 # target to build an object file
 shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/shader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/shader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/shader.cpp.obj
 .PHONY : shader.cpp.obj
 
 shader.i: shader.cpp.i
@@ -189,7 +230,8 @@ shader.i: shader.cpp.i
 
 # target to preprocess a source file
 shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/shader.cpp.i
 .PHONY : shader.cpp.i
 
 shader.s: shader.cpp.s
@@ -197,7 +239,8 @@ shader.s: shader.cpp.s
 
 # target to generate assembly for a file
 shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\openglLearning.dir\build.make CMakeFiles/openglLearning.dir/shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/shader.cpp.s
 .PHONY : shader.cpp.s
 
 # Help Target
@@ -208,13 +251,17 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... openglLearning
+	@echo ... colorful_triangle
+	@echo ... hello_triangle
 	@echo ... glad_WIN32.obj
 	@echo ... glad_WIN32.i
 	@echo ... glad_WIN32.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... main_01.obj
+	@echo ... main_01.i
+	@echo ... main_01.s
+	@echo ... main_02.obj
+	@echo ... main_02.i
+	@echo ... main_02.s
 	@echo ... shader.obj
 	@echo ... shader.i
 	@echo ... shader.s
