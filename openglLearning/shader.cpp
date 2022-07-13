@@ -78,6 +78,59 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
     glDeleteShader(fragment);
 }
 
+Shader::Shader(const char *shaderPath) {
+    /// 1. retrieve the vertex and fragment source code from filePath
+    std::string shaderCode;
+    std::ifstream shaderFile;
+    // ensure ifstream objects can throw exceptions:
+    shaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    try {
+        // open files
+        shaderFile.open(shaderPath);
+        std::stringstream shaderStream;
+        // read the contents of buffer of file into streams
+        shaderStream << shaderFile.rdbuf();
+        // close file stream
+        shaderFile.close();
+        // convert stream into string
+       shaderCode = shaderStream.str();
+    }catch (std::ifstream::failure & error){
+        std::cerr << "ERROR::SHADER::FILE_NOT_SUCCESSFULLY_READ" << std::endl;
+    }
+    const char * sShaderCode = shaderCode.c_str();
+
+    /// 2. Compile shaders
+    unsigned int shader;
+    int success;
+    char infoLog[512];
+
+    // shader
+    shader = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(shader, 1, &sShaderCode, nullptr);
+    glCompileShader(shader);
+    // print vertex shader compile errors if any
+    glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
+    if(!success){
+        glGetShaderInfoLog(shader, 512, nullptr, infoLog);
+        std::cerr << "ERROR::SHADER:::VERTEX_COMPILATION_FAILED" << std::endl
+                  << infoLog << std::endl;
+    }
+
+    // shader program
+    ID = glCreateProgram();
+    glAttachShader(ID, shader);
+    glLinkProgram(ID);
+    // print link errors if any
+    glGetProgramiv(ID, GL_LINK_STATUS, &success);
+    if(!success){
+        glGetProgramInfoLog(ID, 512, nullptr, infoLog);
+        std::cerr << "ERROR::SHADER:::PROGRAM_LINKING_FAILED" << std::endl
+                  << infoLog << std::endl;
+    }
+    // delete shaders because they're linked into our program and no longer necessary
+    glDeleteShader(shader);
+}
+
 void
 Shader::use() const {
     glUseProgram(ID);

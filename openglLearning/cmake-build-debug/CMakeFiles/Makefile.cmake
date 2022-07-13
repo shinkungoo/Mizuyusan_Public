@@ -53,4 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/colorful_triangle.dir/DependInfo.cmake"
   "CMakeFiles/hello_triangle.dir/DependInfo.cmake"
+  "CMakeFiles/texture.dir/DependInfo.cmake"
   )

@@ -33,7 +33,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
     // Create windows
-    GLFWwindow * window = glfwCreateWindow(800, 600, "openglLearning", nullptr, nullptr);
+    GLFWwindow * window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "openglLearning", nullptr, nullptr);
     if(window == nullptr){
         std::cout << "Failed to create window" << std::endl;
         glfwTerminate();

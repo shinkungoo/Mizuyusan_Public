@@ -141,6 +141,19 @@ hello_triangle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/build
 .PHONY : hello_triangle/fast
 
+#=============================================================================
+# Target rules for targets named texture
+
+# Build rule for target.
+texture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 texture
+.PHONY : texture
+
+# fast build rule for target.
+texture/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/build
+.PHONY : texture/fast
+
 glad_WIN32.obj: glad_WIN32.c.obj
 .PHONY : glad_WIN32.obj
 
@@ -148,6 +161,7 @@ glad_WIN32.obj: glad_WIN32.c.obj
 glad_WIN32.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/glad_WIN32.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/glad_WIN32.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad_WIN32.c.obj
 .PHONY : glad_WIN32.c.obj
 
 glad_WIN32.i: glad_WIN32.c.i
@@ -157,6 +171,7 @@ glad_WIN32.i: glad_WIN32.c.i
 glad_WIN32.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/glad_WIN32.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/glad_WIN32.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad_WIN32.c.i
 .PHONY : glad_WIN32.c.i
 
 glad_WIN32.s: glad_WIN32.c.s
@@ -166,6 +181,7 @@ glad_WIN32.s: glad_WIN32.c.s
 glad_WIN32.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/glad_WIN32.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/glad_WIN32.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad_WIN32.c.s
 .PHONY : glad_WIN32.c.s
 
 main_01.obj: main_01.cpp.obj
@@ -216,6 +232,30 @@ main_02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/main_02.cpp.s
 .PHONY : main_02.cpp.s
 
+main_03.obj: main_03.cpp.obj
+.PHONY : main_03.obj
+
+# target to build an object file
+main_03.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/main_03.cpp.obj
+.PHONY : main_03.cpp.obj
+
+main_03.i: main_03.cpp.i
+.PHONY : main_03.i
+
+# target to preprocess a source file
+main_03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/main_03.cpp.i
+.PHONY : main_03.cpp.i
+
+main_03.s: main_03.cpp.s
+.PHONY : main_03.s
+
+# target to generate assembly for a file
+main_03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/main_03.cpp.s
+.PHONY : main_03.cpp.s
+
 shader.obj: shader.cpp.obj
 .PHONY : shader.obj
 
@@ -223,6 +263,7 @@ shader.obj: shader.cpp.obj
 shader.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/shader.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/shader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/shader.cpp.obj
 .PHONY : shader.cpp.obj
 
 shader.i: shader.cpp.i
@@ -232,6 +273,7 @@ shader.i: shader.cpp.i
 shader.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/shader.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/shader.cpp.i
 .PHONY : shader.cpp.i
 
 shader.s: shader.cpp.s
@@ -241,6 +283,7 @@ shader.s: shader.cpp.s
 shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\colorful_triangle.dir\build.make CMakeFiles/colorful_triangle.dir/shader.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_triangle.dir\build.make CMakeFiles/hello_triangle.dir/shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/shader.cpp.s
 .PHONY : shader.cpp.s
 
 # Help Target
@@ -253,6 +296,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... colorful_triangle
 	@echo ... hello_triangle
+	@echo ... texture
 	@echo ... glad_WIN32.obj
 	@echo ... glad_WIN32.i
 	@echo ... glad_WIN32.s
@@ -262,6 +306,9 @@ help:
 	@echo ... main_02.obj
 	@echo ... main_02.i
 	@echo ... main_02.s
+	@echo ... main_03.obj
+	@echo ... main_03.i
+	@echo ... main_03.s
 	@echo ... shader.obj
 	@echo ... shader.i
 	@echo ... shader.s
