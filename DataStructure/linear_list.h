@@ -21,11 +21,6 @@ typedef struct{
     int max_length;
 }IndexBlockForLinearList;
 
-typedef struct{
-    ElementType * hashmap;
-    int max_length;
-}SimpleHashmapForLinearList;
-
 // basic function
 List MakeEmpty(int MaxLength);
 int Search(List l, ElementType x);
@@ -44,9 +39,6 @@ IndexBlockForLinearList InitForIndexBlockForLinearList(List l);
 void UpdateIndexBlock(List l, IndexBlockForLinearList* list);
 int BlockSearch(List l, ElementType x, IndexBlockForLinearList* list);
 void FreeIndexBlock(IndexBlockForLinearList* list);
-SimpleHashmapForLinearList InitForSimpleHashmapForLinearList();
-void UpdateHashmap(List l, SimpleHashmapForLinearList list);
-int HashSearch(List l, ElementType x, SimpleHashmapForLinearList list);
 //Test
 void Test();
 
