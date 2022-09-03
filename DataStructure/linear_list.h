@@ -5,6 +5,8 @@
 #ifndef DATASTRUCTURE_LINEAR_LIST_H
 #define DATASTRUCTURE_LINEAR_LIST_H
 #include <stdbool.h>
+#define NOT_FOUND -1
+#define BLOCK_SIZE 10
 typedef int ElementType;
 typedef struct LNode* List;
 
@@ -16,10 +18,12 @@ struct LNode{
 
 typedef struct{
     ElementType * index;
+    int max_length;
 }IndexBlockForLinearList;
 
 typedef struct{
     ElementType * hashmap;
+    int max_length;
 }SimpleHashmapForLinearList;
 
 // basic function
@@ -32,12 +36,14 @@ bool IsEmpty(List l);
 bool IsFull(List l);
 void PrintList(List l);
 void Clear(List l);
+void Free(List l);
 //advanced function
 int BinarySearch(List l, ElementType x);
 int BinarySearchInRecursion(List l, ElementType x, int left, int right);
-IndexBlockForLinearList InitForIndexBlockForLinearList();
-void UpdateIndexBlock(List l, IndexBlockForLinearList list);
-int BlockSearch(List l, ElementType x, IndexBlockForLinearList list);
+IndexBlockForLinearList InitForIndexBlockForLinearList(List l);
+void UpdateIndexBlock(List l, IndexBlockForLinearList* list);
+int BlockSearch(List l, ElementType x, IndexBlockForLinearList* list);
+void FreeIndexBlock(IndexBlockForLinearList* list);
 SimpleHashmapForLinearList InitForSimpleHashmapForLinearList();
 void UpdateHashmap(List l, SimpleHashmapForLinearList list);
 int HashSearch(List l, ElementType x, SimpleHashmapForLinearList list);

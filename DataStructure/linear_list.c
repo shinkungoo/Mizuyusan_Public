@@ -104,6 +104,12 @@ void Clear(List l)
     l->size = 0;
 }
 
+void Free(List l)
+{
+    free(l->head);
+    l->size = -1, l->max_length = -1;
+}
+
 int BinarySearch(List l, ElementType x)
 {
     int ret = -1;
@@ -138,6 +144,81 @@ int BinarySearchInRecursion(List l, ElementType x, int left, int right)
     }
 }
 
+IndexBlockForLinearList InitForIndexBlockForLinearList(List l)
+{
+    IndexBlockForLinearList ret;
+    ret.max_length = l->max_length / BLOCK_SIZE;
+    if(l->max_length % BLOCK_SIZE != 0){
+        ret.max_length ++;
+    }
+    ret.index = (ElementType *) malloc(sizeof (ElementType) * ret.max_length);
+    int max = 0;
+    for(int i = 0, cnt = 0, j = 0; i < l->size; i ++){
+        if(cnt == BLOCK_SIZE){
+            ret.index[j ++] = max;
+            cnt = 0, max = 0;
+        }
+        if(l->head[i] > max){
+            max = l->head[i];
+        }
+        cnt ++;
+    }
+    ret.index[ret.max_length - 1] = max;
+
+    return ret;
+}
+
+void UpdateIndexBlock(List l, IndexBlockForLinearList* list)
+{
+    free(list->index);
+    list->max_length = l->max_length / BLOCK_SIZE;
+    if(l->max_length % BLOCK_SIZE != 0){
+        list->max_length ++;
+    }
+    list->index = (ElementType *) malloc(sizeof (ElementType) * list->max_length);
+    int max = 0;
+    for(int i = 0, cnt = 0, j = 0; i < l->size; i ++){
+        if(cnt == BLOCK_SIZE){
+            list->index[j ++] = max;
+            cnt = 0, max = 0;
+        }
+        if(l->head[i] > max){
+            max = l->head[i];
+        }
+        cnt ++;
+    }
+    list->index[list->max_length - 1] = max;
+}
+
+// Here use search in order
+int BlockSearch(List l, ElementType x, IndexBlockForLinearList* list)
+{
+    int ret = -1;
+    int isInBlock = 0, idx = 0;
+    for(int i = 0; i < list->max_length; i ++){
+        if(x <= list->index[i]){
+            idx = i * BLOCK_SIZE;
+            isInBlock = 1;
+            break;
+        }
+    }
+    if(isInBlock){
+        for(int i = idx; i < idx + BLOCK_SIZE; i ++){
+            if(x == l->head[i]){
+                ret = i;
+                break;
+            }
+        }
+    }
+
+    return ret;
+}
+
+void FreeIndexBlock(IndexBlockForLinearList* list)
+{
+    free(list->index);
+    list->max_length = 0;
+}
 
 void Test()
 {
@@ -152,13 +233,13 @@ void Test()
         Insert(a, num[i], 0);
     }
     PrintList(a), printf("\n");
-    if(Search(a, 6)){
+    if(Search(a, 6) != NOT_FOUND){
         printf("The 6 is in the a\n");
     }else{
         printf("The 6 is NOT in the a\n");
     }
 
-    if(Search(a, 5)){
+    if(Search(a, 5) != NOT_FOUND){
         printf("The 5 is in the a\n");
     }else{
         printf("The 5 is NOT in the a\n");
@@ -190,4 +271,16 @@ void Test()
     printf("the 99 is at %d\n", BinarySearchInRecursion(a, 99, 0, a->size));
     printf("the 18 is at %d\n", BinarySearchInRecursion(a, 18, 0, a->size));
     printf("the 0 is at %d\n", BinarySearchInRecursion(a, 0, 0, a->size));
+
+    IndexBlockForLinearList la1 = InitForIndexBlockForLinearList(a);
+    printf("the 100 is at %d\n", BlockSearch(a, 100, &la1));
+    printf("the 48 is at %d\n", BlockSearch(a, 48, &la1));
+    Delete(a, Search(a, 48));
+    Append(a, 100);
+    UpdateIndexBlock(a, &la1);
+    printf("the 100 is at %d\n", BlockSearch(a, 100, &la1));
+    printf("the 48 is at %d\n", BlockSearch(a, 48, &la1));
+
+    Free(a);
+    FreeIndexBlock(&la1);
 }
