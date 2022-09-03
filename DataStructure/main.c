@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "linear_list.h"
+#include "linear_stack.h"
 
 int main() {
     printf("Test Begin\n");
