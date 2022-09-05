@@ -63,13 +63,6 @@ build CMakeFiles/CGalgo.dir/glad_APPLE.c.o: C_COMPILER__CGalgo_Debug /Users/shiz
   OBJECT_DIR = CMakeFiles/CGalgo.dir
   OBJECT_FILE_DIR = CMakeFiles/CGalgo.dir
 
-build CMakeFiles/CGalgo.dir/utility_graphics.cpp.o: CXX_COMPILER__CGalgo_Debug /Users/shizumu/Documents/GitHub/Mizuyusan_Public/CGalgo/utility_graphics.cpp || cmake_object_order_depends_target_CGalgo
-  DEP_FILE = CMakeFiles/CGalgo.dir/utility_graphics.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  INCLUDES = -I/usr/local/include -I/Users/shizumu/Documents/environments/glad/include
-  OBJECT_DIR = CMakeFiles/CGalgo.dir
-  OBJECT_FILE_DIR = CMakeFiles/CGalgo.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CGalgo
@@ -78,7 +71,7 @@ build CMakeFiles/CGalgo.dir/utility_graphics.cpp.o: CXX_COMPILER__CGalgo_Debug /
 #############################################
 # Link the executable CGalgo
 
-build CGalgo: CXX_EXECUTABLE_LINKER__CGalgo_Debug CMakeFiles/CGalgo.dir/main.cpp.o CMakeFiles/CGalgo.dir/glad_APPLE.c.o CMakeFiles/CGalgo.dir/utility_graphics.cpp.o
+build CGalgo: CXX_EXECUTABLE_LINKER__CGalgo_Debug CMakeFiles/CGalgo.dir/main.cpp.o CMakeFiles/CGalgo.dir/glad_APPLE.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo  -lglfw3
   LINK_PATH = -L/usr/local/lib

@@ -8,193 +8,193 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="colorful_triangle">
-				<Option output="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/colorful_triangle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Environments/OpenGL/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 colorful_triangle"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="colorful_triangle/fast">
-				<Option output="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/colorful_triangle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Environments/OpenGL/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 colorful_triangle/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hello_triangle">
-				<Option output="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/hello_triangle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option output="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/hello_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Environments/OpenGL/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shizumu/Documents/environments/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hello_triangle/fast">
-				<Option output="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/hello_triangle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option output="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/hello_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Environments/OpenGL/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shizumu/Documents/environments/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="texture">
-				<Option output="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/texture.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+			<Target title="colorful_triangle">
+				<Option output="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/colorful_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Environments/OpenGL/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shizumu/Documents/environments/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 texture"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 colorful_triangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="texture/fast">
-				<Option output="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/texture.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+			<Target title="colorful_triangle/fast">
+				<Option output="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/colorful_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Environments/OpenGL/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shizumu/Documents/environments/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 texture/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 colorful_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_rectangle">
+				<Option output="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/hello_rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shizumu/Documents/environments/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_rectangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_rectangle/fast">
+				<Option output="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/hello_rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shizumu/Documents/environments/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_rectangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
+				<Option working_dir="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/LocalRepository/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/glad_WIN32.c">
-			<Option target="colorful_triangle"/>
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/glad_APPLE.c">
 			<Option target="hello_triangle"/>
-			<Option target="texture"/>
+			<Option target="colorful_triangle"/>
+			<Option target="hello_rectangle"/>
 		</Unit>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/main_01.cpp">
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/main_01.cpp">
 			<Option target="hello_triangle"/>
 		</Unit>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/main_02.cpp">
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/main_02.cpp">
 			<Option target="colorful_triangle"/>
 		</Unit>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/main_03.cpp">
-			<Option target="texture"/>
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/main_03.cpp">
+			<Option target="hello_rectangle"/>
 		</Unit>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/shader.cpp">
-			<Option target="colorful_triangle"/>
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/shader.cpp">
 			<Option target="hello_triangle"/>
-			<Option target="texture"/>
-		</Unit>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/shader.h">
 			<Option target="colorful_triangle"/>
-			<Option target="hello_triangle"/>
-			<Option target="texture"/>
+			<Option target="hello_rectangle"/>
 		</Unit>
-		<Unit filename="F:/LocalRepository/Mizuyusan_Public/openglLearning/CMakeLists.txt">
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/shader.h">
+			<Option target="hello_triangle"/>
+			<Option target="colorful_triangle"/>
+			<Option target="hello_rectangle"/>
+		</Unit>
+		<Unit filename="/Users/shizumu/Documents/GitHub/Mizuyusan_Public/openglLearning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

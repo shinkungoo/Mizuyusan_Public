@@ -1,9 +1,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 #include <iostream>
 
-#include "utility_graphics.h"
+#include "shader.h"
+
 // settings
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
@@ -44,15 +44,17 @@ int main() {
         return -1;
     }
 
+    Shader ourShader();
+
     glViewport(0, 0, SCR_WIDTH, SCR_HEIGHT);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+    ourShader.use();
     while(!glfwWindowShouldClose(window)){
         //input part
         processInput(window);
         //rendering part
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-        setPixel(800, 600);
         //call events and swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
