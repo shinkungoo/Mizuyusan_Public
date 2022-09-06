@@ -19,6 +19,7 @@ private:
 public:
     Shader(const char * vertexPath, const char * fragmentPath);
     explicit Shader(const char * shaderPath);
+    ~Shader();
 
     void use() const; // use or active the shader
     unsigned int program() const;

@@ -4,6 +4,7 @@
 
 #ifndef DATASTRUCTURE_LINEAR_STACK_H
 #define DATASTRUCTURE_LINEAR_STACK_H
+
 #include <stdlib.h>
 typedef int ElementType;
 typedef struct SNode *Stack;

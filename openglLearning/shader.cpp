@@ -131,6 +131,10 @@ Shader::Shader(const char *shaderPath) {
     glDeleteShader(shader);
 }
 
+Shader::~Shader() {
+    glDeleteProgram(ID);
+}
+
 void
 Shader::use() const {
     glUseProgram(ID);
