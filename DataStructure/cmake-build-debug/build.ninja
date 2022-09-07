@@ -55,12 +55,6 @@ build CMakeFiles/DataStructure.dir/main.c.o: C_COMPILER__DataStructure_Debug /Us
   OBJECT_DIR = CMakeFiles/DataStructure.dir
   OBJECT_FILE_DIR = CMakeFiles/DataStructure.dir
 
-build CMakeFiles/DataStructure.dir/linear_stack.c.o: C_COMPILER__DataStructure_Debug /Users/shizumu/Documents/GitHub/Mizuyusan_Public/DataStructure/linear_stack.c || cmake_object_order_depends_target_DataStructure
-  DEP_FILE = CMakeFiles/DataStructure.dir/linear_stack.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/DataStructure.dir
-  OBJECT_FILE_DIR = CMakeFiles/DataStructure.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure
@@ -69,7 +63,7 @@ build CMakeFiles/DataStructure.dir/linear_stack.c.o: C_COMPILER__DataStructure_D
 #############################################
 # Link the executable DataStructure
 
-build DataStructure: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.o CMakeFiles/DataStructure.dir/linear_stack.c.o
+build DataStructure: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/DataStructure.dir
   POST_BUILD = :

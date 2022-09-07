@@ -14,9 +14,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76eaa75-849f-4535-9423-fe7d494a25e4" name="Changes" comment="完成了数据结构栈">
+    <list default="true" id="a76eaa75-849f-4535-9423-fe7d494a25e4" name="Changes" comment="更改为头文件库">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ring_queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/ring_queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/link_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,7 @@
       <workItem from="1656473973176" duration="11267000" />
       <workItem from="1662210971679" duration="2000" />
       <workItem from="1662211022890" duration="3938000" />
-      <workItem from="1662508579753" duration="681000" />
+      <workItem from="1662508579753" duration="3866000" />
     </task>
     <task id="LOCAL-00001" summary="a new project about data structure">
       <created>1656430121843</created>
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662508783989</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更改为头文件库">
+      <created>1662509964192</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662509964192</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,17 +192,7 @@
     <MESSAGE value="a new project about data structure" />
     <MESSAGE value="complete block search" />
     <MESSAGE value="完成了数据结构栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了数据结构栈" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/linear_list.c</url>
-          <line>274</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="更改为头文件库" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改为头文件库" />
   </component>
 </project>
