@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#define NOT_FOUND -1
+#define NOT_FOUND (-1)
 #define BLOCK_SIZE 10
 typedef int ElementType;
 typedef struct LNode* List;
@@ -53,10 +53,20 @@ int Search(List l, ElementType x)
     return ret;
 }
 
+bool IsEmpty(List l)
+{
+    return (l->size == 0);
+}
+
+bool IsFull(List l)
+{
+    return (l->size == l->max_length);
+}
+
 bool Insert(List l, ElementType x, int p)
 {
     bool isInsert = false;
-    if(l->size == l->max_length || p < 0 || (p >= l->size && l->size != 0)){
+    if(IsFull(l) || p < 0 || (p >= l->size && l->size != 0)){
         return isInsert;
     }
     for(int i = l->size - 1; i >= p; i --){
@@ -72,7 +82,7 @@ bool Insert(List l, ElementType x, int p)
 bool Append(List l, ElementType x)
 {
     bool isAppend = false;
-    if(l->size == l->max_length){
+    if(IsFull(l)){
         return isAppend;
     }
     l->head[l->size] = x;
@@ -85,7 +95,7 @@ bool Append(List l, ElementType x)
 bool Delete(List l, int p)
 {
     bool isDelete = false;
-    if(p >= l->size || p < 0){
+    if(p >= l->size || p < 0 || IsEmpty(l)){
         return isDelete;
     }
     for(int i = p; i < l->size - 1; i ++){
@@ -96,16 +106,6 @@ bool Delete(List l, int p)
     isDelete = true;
 
     return isDelete;
-}
-
-bool IsEmpty(List l)
-{
-    return (l->size == 0);
-}
-
-bool IsFull(List l)
-{
-    return (l->size == l->max_length);
 }
 
 void PrintList(List l)
