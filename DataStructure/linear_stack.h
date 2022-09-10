@@ -47,6 +47,7 @@ ElementType Top(Stack s)
         return 0;
     }
 }
+
 void Test();
 
 #endif //DATASTRUCTURE_LINEAR_STACK_H

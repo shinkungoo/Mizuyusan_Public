@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ring_queue.h"
+#include "bi_stack.h"
 
 int main() {
     printf("Test Begin\n");
