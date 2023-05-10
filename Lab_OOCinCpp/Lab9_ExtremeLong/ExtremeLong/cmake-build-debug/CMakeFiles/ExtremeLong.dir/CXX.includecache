@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Current_Project/ExtremeLong/ExtremeLong.cpp
+ExtremeLong.h
+F:/Current_Project/ExtremeLong/ExtremeLong.h
+cctype
+-
+cmath
+-
+
+F:/Current_Project/ExtremeLong/ExtremeLong.h
+deque
+-
+string
+-
+iostream
+-
+cstdint
+-
+
+F:/Current_Project/ExtremeLong/main.cpp
+iostream
+-
+string
+-
+cstdlib
+-
+iomanip
+-
+typeinfo
+-
+ctime
+-
+ExtremeLong.h
+F:/Current_Project/ExtremeLong/ExtremeLong.h
+

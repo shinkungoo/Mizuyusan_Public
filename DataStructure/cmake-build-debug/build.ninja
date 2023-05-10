@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_DataStructure: phony || CMakeFiles/DataS
 
 build CMakeFiles/DataStructure.dir/main.c.o: C_COMPILER__DataStructure_Debug /Users/shizumu/Documents/GitHub/Mizuyusan_Public/DataStructure/main.c || cmake_object_order_depends_target_DataStructure
   DEP_FILE = CMakeFiles/DataStructure.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/DataStructure.dir
   OBJECT_FILE_DIR = CMakeFiles/DataStructure.dir
   TARGET_COMPILE_PDB = CMakeFiles/DataStructure.dir/
@@ -66,7 +66,7 @@ build CMakeFiles/DataStructure.dir/main.c.o: C_COMPILER__DataStructure_Debug /Us
 # Link the executable DataStructure
 
 build DataStructure: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/DataStructure.dir
   POST_BUILD = :
   PRE_LINK = :

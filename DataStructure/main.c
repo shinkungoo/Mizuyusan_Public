@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "bi_stack.h"
+#include "binary_tree.h"
 
 int main() {
     printf("Test Begin\n");

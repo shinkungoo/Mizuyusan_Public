@@ -1,0 +1,12 @@
+#ifndef DATASTRUCTURE_PRIORITY_QUEUE_H
+#define DATASTRUCTURE_PRIORITY_QUEUE_H
+
+
+
+
+void Test()
+{
+    ;
+}
+
+#endif //DATASTRUCTURE_PRIORITY_QUEUE_H

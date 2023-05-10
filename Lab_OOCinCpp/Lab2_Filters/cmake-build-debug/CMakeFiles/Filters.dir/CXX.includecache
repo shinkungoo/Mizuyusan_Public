@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/TestSpace/Filters/DefineFilters.cpp
+windows.h
+-
+vector
+-
+DefineFilters.h
+D:/TestSpace/Filters/DefineFilters.h
+cmath
+-
+
+D:/TestSpace/Filters/DefineFilters.h
+windows.h
+-
+vector
+-
+
+D:/TestSpace/Filters/main.cpp
+getopt.h
+-
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+DefineFilters.h
+D:/TestSpace/Filters/DefineFilters.h
+iostream
+-
+vector
+-
+

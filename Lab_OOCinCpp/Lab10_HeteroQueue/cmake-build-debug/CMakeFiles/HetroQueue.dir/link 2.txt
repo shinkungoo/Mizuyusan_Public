@@ -1,0 +1,3 @@
+"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\HetroQueue.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\HetroQueue.dir/objects.a @CMakeFiles\HetroQueue.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\HetroQueue.dir/objects.a -Wl,--no-whole-archive -o HetroQueue.exe -Wl,--out-implib,libHetroQueue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HetroQueue.dir\linklibs.rsp

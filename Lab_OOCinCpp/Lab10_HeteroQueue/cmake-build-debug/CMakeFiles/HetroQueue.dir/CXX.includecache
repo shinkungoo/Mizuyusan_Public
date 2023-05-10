@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Shizumu/iCloudDrive/Programming/HetroQueue/heteroQueue.cpp
+heteroQueue.h
+C:/Users/Shizumu/iCloudDrive/Programming/HetroQueue/heteroQueue.h
+iostream
+-
+iomanip
+-
+string
+-
+
+C:/Users/Shizumu/iCloudDrive/Programming/HetroQueue/heteroQueue.h
+string
+-
+cstdint
+-
+iostream
+-
+
+C:/Users/Shizumu/iCloudDrive/Programming/HetroQueue/main.cpp
+iostream
+-
+cstdlib
+-
+heteroQueue.h
+C:/Users/Shizumu/iCloudDrive/Programming/HetroQueue/heteroQueue.h
+

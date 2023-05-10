@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClassFile/anySet/anySet.cpp
+iostream
+-
+anySet.h
+D:/ClassFile/anySet/anySet.h
+anytype.h
+D:/ClassFile/anySet/anytype.h
+
+D:/ClassFile/anySet/anySet.h
+iostream
+-
+exception
+-
+anytype.h
+D:/ClassFile/anySet/anytype.h
+
+D:/ClassFile/anySet/anytype.h
+iostream
+-
+
